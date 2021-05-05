@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<title>CRIS.L SHOES</title>
 	<link rel="stylesheet" href="estilos2.css">
 	<!--link de menu-->
@@ -9,7 +11,10 @@
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<!--link animaciones y tipos de letra-->
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<!--link flexbox grid-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
@@ -19,18 +24,18 @@
 	<div class="menu">
 		<header class="menu animated">
 			<div class="menu_bar">
-				<a href="#" class="bt-menu"><span class="icon-menu menux"></span> Menu</a>
+				<a href="#" class="bt-menu pacifico"><span class="icon-menu menux"></span>Menu</a>
 			</div>
 			<nav>
 				<div class="logo">
-					<a href=""><h1 class="white-text title">CRIS.L SHOES</h1></a>
+					<a href=""><h1 class="white-text title pacifico2">CRIS.L SHOES</h1></a>
 				</div>
 				<ul>
-					<li><a href="#"><span class="icon-home3"></span>Inicio</a></li>
-					<li><a href="#"><span class="icon-briefcase"></span>Trabajo</a></li>
-					<li><a href="#" ><span class="icon-rocket"></span>Proyectos</a></li>
-					<li><a href="#"><span class="icon-earth"></span>Servicios</a></li>
-					<li><a href="#"><span class="icon-envelop"></span>Contactos</a></li>
+					<li><a href="#" class="pacifico2"><span class="icon-home3"></span>INICIO</a></li>
+					<li><a href="#" class="pacifico2"><span class="icon-briefcase"></span>TRABAJO</a></li>
+					<li><a href="#" class="pacifico2"><span class="icon-rocket"></span>PROYECTOS</a></li>
+					<li><a href="#" class="pacifico2"><span class="icon-earth"></span>SERVICIOS</a></li>
+					<li><a href="#" class="pacifico2"><span class="icon-envelop"></span>CONTACTO</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -49,130 +54,422 @@
 				<div class="card2">
 					<article>
 						<div class="text-center">
-							<h2 class="text-green animated fadeInUp delay-0">Nuestros Zapatos</h2>
+							<h2 class="text-green animated fadeInUp delay-0 pacifico"><i>Nuestros Zapatos</i></h2>
 						</div>
 					</article>
 					<div class="productos">
 						<div class="row center-xs">
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-1">
-								<a href="paginas/strong1.html">
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-1">
 									<div class="card principal">
-										<img src="zapatos/1.1.jpg" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
+										<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Indefinido/1.1.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Indefinido/1.2.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Indefinido/1.3.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Indefinido/1.4.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+										<h3 class="pacifico3">Zapato Indefinido</h3>
+										<p class="pacifico3">$60.000</p>
 										<a class="boton_personalizado" href="paginas/strong1.html">Mas Informacion</a>
 									</div>
-								</a>
 							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-2">
-								<a href="paginas/strong2.html">
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-2">
 									<div class="card principal">
-										<img src="zapatos/2.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
+										<div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Diesel/1.1u.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Diesel/1.2u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Diesel/1.3u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Diesel/1.4u.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+										<h3>Zapato Disel</h3>
+										<p>$80.000</p>
 										<a class="boton_personalizado" href="paginas/strong2.html">Mas Informacion</a>
 									</div>
-								</a>
 							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-3">
-								<a href="paginas/strong3.html">
-									<div class="card principal">
-										<img src="zapatos/3.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-3">
+								<div class="card principal">
+										<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Nike/1.1.jpg" class="">
+									  	        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+										<h3>Zapato Nike</h3>
+										<p>$120.000</p>
 										<a class="boton_personalizado" href="paginas/strong3.html">Mas Informacion</a>
 									</div>
-								</a>
 							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-4">
-								<a href="paginas/strong4.html">
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-4">
 									<div class="card principal">
-										<img src="zapatos/4.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
+										<div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Puma/1.2m.jpg" class="">
+									  	        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+										<h3>Zapato Puma</h3>
+										<p>$95.000</p>
 										<a class="boton_personalizado" href="paginas/strong4.html">Mas Informacion</a>
 									</div>
-								</a>
 							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-5">
-								<a href="paginas/strong5.html">
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-5">
 									<div class="card principal">
-										<img src="zapatos/5.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
+										<div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Sportif/1.1m.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Sportif/1.2m.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Sportif/1.3m.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Sportif/1.4m.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+										<h3>Zapato Le Coq Sportif</h3>
+										<p>$68.000</p>
 										<a class="boton_personalizado" href="paginas/strong5.html">Mas Informacion</a>
 									</div>
-								</a>
 							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-6">
-								<a href="paginas/strong6.html">
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-6">
 									<div class="card principal">
-										<img src="zapatos/6.png" alt="Imagen de un zapato">
+										<div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Adidas/2.1u.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Adidas/2.2u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Adidas/2.3u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Adidas/2.4u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Adidas/2.5u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Adidas/2.6u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Adidas/2.7u.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
 										<h3>Zapato Sport</h3>
 										<p>$</p>
 										<a class="boton_personalizado" href="paginas/strong6.html">Mas Informacion</a>
 									</div>
-								</a>
 							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-7">
-								<a href="paginas/strong7.html">
-									<div class="card principal">
-										<img src="zapatos/7.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
-										<a class="boton_personalizado" href="paginas/strong7.html">Mas Informacion</a>
-									</div>
-								</a>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-8">
-								<a href="paginas/strong8.html">
-									<div class="card principal">
-										<img src="zapatos/8.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
-										<a class="boton_personalizado" href="paginas/strong8.html">Mas Informacion</a>
-									</div>
-								</a>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-9">
-								<a href="paginas/strong9.html">
-									<div class="card principal">
-										<img src="zapatos/9.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
-										<a class="boton_personalizado" href="paginas/strong9.html">Mas Informacion</a>
-									</div>
-								</a>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-10">
-								<a href="paginas/strong10.html">
-									<div class="card principal">
-										<img src="zapatos/10.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
-										<a class="boton_personalizado" href="paginas/strong10.html">Mas Informacion</a>
-									</div>
-								</a>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-10">
-								<a href="paginas/strong11.html">
-									<div class="card principal">
-										<img src="zapatos/11.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
-										<a class="boton_personalizado" href="paginas/strong11.html">Mas Informacion</a>
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-7">
+								<div class="card principal">
+									<div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Diesel/2.1u.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Diesel/2.2u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Diesel/2.3u.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
 										</div>
-								</a>
+									<h3>Zapato Diesel</h3>
+									<p>$85.000</p>
+									<a class="boton_personalizado" href="paginas/strong7.html">Mas Informacion</a>
+								</div>
 							</div>
-							<div class="col-xs-6 col-sm-6 col-md-3 product animated fadeInDown delay-10">
-								<a href="paginas/strong12.html">
-									<div class="card principal">
-										<img src="zapatos/12.png" alt="Imagen de un zapato">
-										<h3>Zapato Sport</h3>
-										<p>$</p>
-										<a class="boton_personalizado" href="paginas/strong12.html">Mas Informacion</a>
-									</div>
-								</a>
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-8">
+								<div class="card principal">
+									<div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Lacoste/1.1.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Lacoste/1.2.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Lacoste/1.3.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators8" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+									<h3>Zapato Lacoste</h3>
+									<p>$55.000</p>
+									<a class="boton_personalizado" href="paginas/strong8.html">Mas Informacion</a>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-9">
+								<div class="card principal">
+									<div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Nike/2.1u.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Nike/2.2u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Nike/2.3u.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators9" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+									<h3>Zapato Nike</h3>
+									<p>$100.000</p>
+									<a class="boton_personalizado" href="paginas/strong9.html">Mas Informacion</a>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-10">
+								<div class="card principal">
+									<div id="carouselExampleIndicators10" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Nike/3.1u.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Nike/3.2u.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Nike/3.3m.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Nike/3.4u.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators10" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+									<h3>Zapato Nike</h3>
+									<p>$94.000</p>
+									<a class="boton_personalizado" href="paginas/strong10.html">Mas Informacion</a>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-10">
+								<div class="card principal">
+									<div id="carouselExampleIndicators11" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Indefinido/2.1n.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Indefinido/2.2n.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators11" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators11" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+									<h3>Zapato Indefinido</h3>
+									<p>$65.000</p>
+									<a class="boton_personalizado" href="paginas/strong11.html">Mas Informacion</a>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 product animated fadeInDown delay-10">
+								<div class="card principal">
+									<div id="carouselExampleIndicators12" class="carousel slide" data-ride="carousel">
+										  	<ol class="carousel-indicators">
+										        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+										    </ol>
+										    <div class="carousel-inner">
+										        <div class="carousel-item active">
+										            <img src="zapatos/Adidas/3.1.jpg" class="">
+									  	        </div>
+								            	<div class="carousel-item">
+								                	<img src="zapatos/Adidas/3.2.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Adidas/3.3.jpg" class="">
+										        </div>
+										        <div class="carousel-item">
+										            <img src="zapatos/Adidas/3.4.jpg" class="">
+										        </div>
+										    </div>
+										    <a class="carousel-control-prev" href="#carouselExampleIndicators12" role="button" data-slide="prev">
+										        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Previous</span>
+										    </a>
+										    <a class="carousel-control-next" href="#carouselExampleIndicators12" role="button" data-slide="next">
+										        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+										        <span class="sr-only">Next</span>
+										   	</a>
+										</div>
+									<h3>Zapato Adidas</h3>
+									<p>$130.000</p>
+									<a class="boton_personalizado" href="paginas/strong12.html">Mas Informacion</a>
+								</div>
 							</div>
 						</div>		
 					</div>
@@ -184,9 +481,9 @@
 <footer>
 	<div class="copyright">
 	    <div class="container-fluid">
-	    	<p class="strong">Zapateria Strong Shoes</p>
+	    	<p class="strong pacifico"><i>Surtido Zapatos Cris.L</i></p>
 	        <img src="https://adl-foundation.adidas.com/prod/assets/flags/co.svg">
-	       	<p class="colombia"> ©  Copyright  Colombia</p>
+	       	<p class="colombia pacifico"><i>©  Copyright  Colombia</i></p>
 	    </div>
 	</div>
 </footer>
@@ -194,5 +491,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="menu.js"></script>
 <!--cierre script de menu-->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
